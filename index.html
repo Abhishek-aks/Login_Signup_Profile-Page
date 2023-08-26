@@ -14,7 +14,7 @@
 <body style="background-color: black;">
 
     <!-- navbar -->
-    <nav style="border-bottom: 2.5px white solid; height:50px;">
+    <nav style="border-bottom: 2px blue solid; height:50px;">
         <div class="p-2 text-white d-flex justify-content-between" style="font-size: large;">
             <a href="#" class="text-decoration-none text-white fs-5">Header</a>
             <div>
@@ -29,25 +29,26 @@
         <div class="container my-5">
             <div class="card border-0">
                 <div class="card-header bg-black text-white border-0">
-                    <h3 class="card-title">Signup</h3>
+                    <h3 class="card-title" id="title">Signup</h3>
                 </div>
 
                 <div class="card-body bg-black text-white">
 
                     <label for="full-name">Full Name</label>
-                    <input class="ipt fs-5 bg-black text-white" id="full-name" type="text" />
+                    <input class="ipt fs-5 bg-black text-white" id="full-name" type="text" placeholder="Abhishek" />
 
                     <label for="email">Email</label>
-                    <input class="ipt fs-5 bg-black text-white" id="email" type="text" />
+                    <input class="ipt fs-5 bg-black text-white" id="email" type="text" placeholder="aks@gmail.com" />
 
                     <label for="password">Password</label>
-                    <input class="ipt fs-5 bg-black text-white" id="password" type="password" />
+                    <input class="ipt fs-5 bg-black text-white" id="password" type="password" placeholder="******" />
 
                     <label for="confirm-password">Confirm Passsword</label>
-                    <input class="ipt fs-5 bg-black text-white" id="confirm-password" type="Password" />
+                    <input class="ipt fs-5 bg-black text-white" id="confirm-password" type="Password"
+                        placeholder="******" />
 
                     <!--condition - success or error based message ll be shown here-->
-                    <p id="message" class="fs-5"></p>
+                    <p id=" message" class="fs-5"></p>
                     <div id="timer"></div>
                     <button class="btn-sign" onclick="signUpProcessing()" id="signup">Signup</button>
 

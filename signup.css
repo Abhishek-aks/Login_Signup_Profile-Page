@@ -4,13 +4,23 @@ input {
   border-bottom: 2px solid white;
 }
 
-/* nav {
-  width: 100vh;
-  height: 50px;
-} */
+#title {
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: -5px 0px rgb(247, 95, 211);
+  text-decoration: underline;
+}
+
 label {
   margin-top: 20px;
   font-size: 20px;
+}
+
+#full-name,
+#email,
+#password,
+#confirm-password {
+  padding-left: 200px;
 }
 input:focus {
   outline: none;
@@ -45,7 +55,8 @@ span {
   border-radius: 1px;
 }
 #signup:hover {
-  border: 1px red solid;
+  border: 5px burlywood outset;
+  background: rgb(54, 183, 28);
 }
 
 .btn-sign {
@@ -85,7 +96,7 @@ span {
   height: 40px;
 }
 .btn-logout:hover {
-  border: 5px groove rgb(146, 10, 10);
+  border: 5px burlywood outset;
   background-color: rgb(209, 44, 93);
   height: 50px;
   font-weight: bolder;
