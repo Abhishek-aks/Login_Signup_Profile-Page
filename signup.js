@@ -18,12 +18,12 @@ function isAuthenticated(){
 
 //function for validating and storing the data
 function signUpProcessing(){
-  // signupBtn.addEventListener('click', ()=>{
   const msg = document.getElementById("message");
   let name = fullName.value;
   let e = email.value;
   let pass = password.value;
   let cp = confirmPass.value;
+  console.log(fullName.value);
 
 
   // validating the fields

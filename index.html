@@ -14,8 +14,8 @@
 <body style="background-color: black;">
 
     <!-- navbar -->
-    <nav style="border-bottom: 2px blue solid; height:50px;">
-        <div class="p-2 text-white d-flex justify-content-between" style="font-size: large;">
+    <nav style="border-bottom: 2px blue solid;">
+        <div class="p-2 text-white d-flex justify-content-between">
             <a href="#" class="text-decoration-none text-white fs-5">Header</a>
             <div>
                 <a href="" class="text-decoration-none text-white fs-5 mx-3">Signup</a>
@@ -38,17 +38,16 @@
                     <input class="ipt fs-5 bg-black text-white" id="full-name" type="text" placeholder="Abhishek" />
 
                     <label for="email">Email</label>
-                    <input class="ipt fs-5 bg-black text-white" id="email" type="text" placeholder="aks@gmail.com" />
+                    <input class="ipt fs-5 bg-black text-white" id="email" type="text" />
 
                     <label for="password">Password</label>
-                    <input class="ipt fs-5 bg-black text-white" id="password" type="password" placeholder="******" />
+                    <input class="ipt fs-5 bg-black text-white" id="password" type="password" />
 
                     <label for="confirm-password">Confirm Passsword</label>
-                    <input class="ipt fs-5 bg-black text-white" id="confirm-password" type="Password"
-                        placeholder="******" />
+                    <input class="ipt fs-5 bg-black text-white" id="confirm-password" type="Password" />
 
-                    <!--condition - success or error based message ll be shown here-->
-                    <p id=" message" class="fs-5"></p>
+                    <!-- message ll be shown here after getting success or error -->
+                    <p id="message" class="fs-5"></p>
                     <div id="timer"></div>
                     <button class="btn-sign" onclick="signUpProcessing()" id="signup">Signup</button>
 
