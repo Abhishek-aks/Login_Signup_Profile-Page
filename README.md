@@ -1,6 +1,6 @@
 # Login_Signup_Profile-Page
 
-**Task
+*Task
 01 - Handle authentication using local storage.
 02 - Create a ui as shown in the image ,make 2 pages - signup and profile
 03 - On clicking signup, use local storage to create the state of the user.
