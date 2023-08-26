@@ -1,0 +1,109 @@
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+/* nav {
+  width: 100vh;
+  height: 50px;
+} */
+label {
+  margin-top: 20px;
+  font-size: 20px;
+}
+input:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+.hide {
+  display: none;
+}
+.e-msg {
+  color: red;
+  margin-top: 40px;
+}
+.s-msg {
+  color: green;
+  margin-top: 40px;
+}
+.time {
+  color: yellow;
+  font-size: 20px;
+}
+span {
+  color: rgb(0, 33, 219);
+}
+#signup {
+  margin-left: -10px;
+  margin-top: 30px;
+  color: black;
+  background: white;
+  border-radius: 1px;
+}
+#signup:hover {
+  border: 1px red solid;
+}
+
+.btn-sign {
+  font-size: 24px;
+  padding: 10px 50px;
+}
+
+#logout:hover {
+  border: 1px red solid;
+}
+
+/* profile page styling */
+.hr1 {
+  border: 2px solid white;
+  width: 100px;
+  color: rgb(245, 239, 239);
+  margin-top: -35px;
+}
+.user-d {
+  font-size: 30px;
+}
+.user-h {
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: -5px 0px rgb(247, 95, 211);
+  text-decoration: underline;
+}
+
+.card-body {
+  font-size: medium;
+}
+
+.btn-logout {
+  font-size: 20px;
+  padding: 5px 30px;
+  margin-left: 16px;
+  height: 40px;
+}
+.btn-logout:hover {
+  border: 5px groove rgb(146, 10, 10);
+  background-color: rgb(209, 44, 93);
+  height: 50px;
+  font-weight: bolder;
+  text-shadow: -1px 0px rgb(113, 114, 114);
+  transition: 0.1s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .user-d {
+    font-size: 18px;
+  }
+
+  #signup {
+    margin-top: 10px;
+  }
+
+  .time {
+    color: rgb(4, 0, 255);
+    font-size: 18px;
+  }
+}
